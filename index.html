@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Applebridge Family | Your induction</title>
+    <meta name="description"
+        content="Welcome to the Applebridge Family. Work through your new starter induction at your own pace.">
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23dc4405'/%3E%3Ctext x='16' y='24' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold' font-size='23'%3EA%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="content.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body><a class="skip" href="index.html">Skip to content</a>
+    <header class="header">
+        <a class="brand" href="./" aria-label="Applebridge Family induction home">
+            <img src="assests/applebridge-family-logo.png" alt="Applebridge Family" class="brand-logo">
+        </a>
+                
+                <span class="header-label">NEW STARTER INDUCTION</span></header>
+    <main id="main">
+        <section id="welcome" class="welcome">
+            <div class="welcome-copy"><span class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</span>
+                <h1>WELCOME TO<br>THE FAMILY<span class="orange">.</span></h1>
+                <p class="intro">Get to know Applebridge, how we work and where to find support. A little time now will
+                    help you feel ready for your first day.</p>
+                <div class="welcome-details">
+                    <div><strong id="duration">15–20 minutes</strong><span>Estimated time</span></div>
+                    <div><strong id="section-count">6 sections</strong><span>Work at your own pace</span></div>
+                </div><button id="start" class="button">Start my induction</button>
+                <p id="resume-note" class="small">Your progress is saved on this browser so you can take a break.</p>
+            </div>
+            <aside class="welcome-aside"><span class="eyebrow">WHAT TO EXPECT</span>
+                <h2>A GOOD START,<br>STEP BY STEP.</h2>
+                <ol class="expect">
+                    <li><span>01</span>
+                        <div><strong>Read, watch and explore</strong>
+                            <p>Take time to review each section and any videos provided.</p>
+                        </div>
+                    </li>
+                    <li><span>02</span>
+                        <div><strong>Move through in order</strong>
+                            <p>Select Next section when you are ready. You can revisit previous sections.</p>
+                        </div>
+                    </li>
+                    <li><span>03</span>
+                        <div><strong>Complete the final form</strong>
+                            <p>After the last section, open Microsoft Forms and submit your induction details.</p>
+                        </div>
+                    </li>
+                </ol>
+                <div class="welcome-note">Please complete the induction yourself. If anything is unclear, speak to your
+                    line manager.</div>
+            </aside>
+        </section>
+        <section id="journey" class="journey" hidden>
+            <aside class="sidebar"><span class="eyebrow">YOUR INDUCTION</span>
+                <div class="progress-label"><strong id="progress-text">0 of 6 reviewed</strong><span
+                        id="percent">0%</span></div><progress id="progress" max="6" value="0"
+                    aria-label="Sections reviewed"></progress>
+                <nav aria-label="Induction sections">
+                    <ol id="steps"></ol>
+                </nav>
+                <p class="small">Your place is saved on this browser.</p><button id="restart" class="text-button">Start
+                    again</button>
+            </aside>
+            <div class="content-wrap">
+                <div class="content-meta"><span id="section-number" class="eyebrow"></span><span id="section-time"
+                        class="small"></span></div>
+                <article id="section-content" class="content"></article>
+                <div id="storage-note" class="notice" hidden>Progress cannot be saved in this browser. Keep this page
+                    open to continue.</div>
+                <footer class="section-footer"><button id="back" class="button secondary">Previous section</button><span
+                        id="step-caption" class="small"></span><button id="next" class="button">Next section</button>
+                </footer>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer"><span>APPLEBRIDGE FAMILY</span><span>Building your future, together.</span></footer>
+    <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+
+</html>
