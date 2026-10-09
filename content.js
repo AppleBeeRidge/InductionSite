@@ -24,8 +24,8 @@ window.INDUCTION = {
   "time": "3 minutes",
   "heading": "MANY SPECIALISMS. ONE FAMILY.",
   "body": "\n      <p class=\"lead\">Our businesses work across different stages of construction, bringing complementary skills to the projects we deliver.</p>\n      <div class=\"cards\"><div class=\"card\"><h3>Ground & enabling works</h3><p>Geoenvironmental services, earthworks and ground improvement help prepare sites for construction.</p></div><div class=\"card\"><h3>Construction & infrastructure</h3><p>Civil engineering, drainage and infrastructure support the delivery of developments.</p></div><div class=\"card\"><h3>Utilities & building services</h3><p>Utility connections and building services help make developments ready for use.</p></div><div class=\"card\"><h3>Plant & specialist support</h3><p>Plant hire and specialist services support teams throughout delivery.</p></div></div>\n      <p>Your line manager will explain where your business and role fit within the Family, and which teams you will work with.</p>",
-  "videoUrl": "assests/CoporateVideo.mp4",
-  "videoType": "file",
+  "videoUrl": "https://www.youtube-nocookie.com/embed/1ZvlLFW0cng",
+  "videoType": "embed",
   "quiz": {
     "passMark": 3,
     "questions": [
